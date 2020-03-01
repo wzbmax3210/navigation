@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "build": "rm -rf dist && parcel build src/index.html --no-minify --public-url ./"
+  },
+  "name": "navigation",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:wzbmax3210/navigation.git",
+  "author": "max <1127979416@qq.com>",
+  "license": "MIT"
+}
