@@ -1,6 +1,6 @@
 const $siteList = $('.siteList')
 const $lastLi = $('.lastLi')
-const navString = localStorage.getItem('navigation') || nulli
+const navString = localStorage.getItem('navigation') || null
 let hashMap = JSON.parse(navString) || []
 
 const simplifyUrl = (url) => {
